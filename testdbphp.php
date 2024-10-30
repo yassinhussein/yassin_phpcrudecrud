@@ -1,7 +1,7 @@
 <?php
 
 //this is the php object oriented style of creating a mysql connection
-$conn = new mysqli('localhost', 'joeax', 'abc123', 'employees' );
+$conn = new mysqli('localhost', 'yassin', 'yassin', 'employee' );
 
 //check for connection success
 if ($conn->connect_error) {
