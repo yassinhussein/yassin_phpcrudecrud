@@ -1,15 +1,9 @@
-# INET4031 PHP Crude CRUD App (MariaDB/MySQL DB Version)
+# PHP Crude CRUD Application
 
-## Demonstrates a basic Dynamic HTML Application using PHP
+This repository contains source code for a simple three-tier web application using the LAMP stack. Key features include:
 
-It doesn't get much more crude than this, but is a great starting point for understanding how **dynamic data-driven web applications** work.
-
-Understand how this one works, and more modern/advanced/complex web development frameworks, won't seem so mysterious.
-
-This application assumes the MySQL database has certain users added and an "employees" database based on a sample dataset. Additional details will be provided in class.
-
-The "credentials.php" file above has the details of the MySQL database connection.  You will need to modify this file to work for your configuration
-
-Obviously everything is in the open and unsecure here.
-
-...and obviously change the credentials too...
+- Virtual machine setup with Ubuntu.
+- LAMP stack installation (Linux, Apache, MySQL, PHP).
+- Configured MySQL with user accounts and a sample schema (300,000 records).
+- PHP database connection and deployment to test environments.
+- Managed with GitHub and deployed via a `.tar.gz` file.
